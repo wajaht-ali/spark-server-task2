@@ -1,5 +1,6 @@
 import { myDB } from "../config/db.js";
 import jwt from "jsonwebtoken";
+import bcrypt from "bcrypt";
 
 export const loginController = async (req, res) => {
   try {
